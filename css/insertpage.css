@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif, 'Island Moments', cursive;
+}
+
+
+/* Designing Container */
+
+.container {
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+
+
+/* Designing welcome text */
+
+.container .welcometext {
+    border-bottom: 2px solid black;
+    color: rgb(250, 77, 9);
+    /* margin-top: .3em; */
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* Designing Insert Title */
+
+.container .pagename {
+    /* border: 2px solid black; */
+    /* color: rgb(245, 13, 52); */
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+
+/* Designing Form */
+
+.container form {
+    /* border: 2px solid black; */
+    height: 80vh;
+    width: 40vw;
+    margin: .5em auto;
+}
+
+
+/* Designing Form Element */
+
+.container form input,
+button {
+    display: block;
+    font-size: 1.1rem;
+    padding: .6em 2em;
+    margin: 3em auto;
+    text-align: center;
+    border: none;
+    border: .5px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(250, 77, 9);
+    outline: none;
+}
+
+
+/* Diploma And B.Tech Designing */
+
+.course {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.container form input[type="radio"] {
+    display: inline;
+    margin-left: .5em;
+    /* margin-top: -em; */
+}
+
+
+/* Designing Submit Button */
+
+.container form button {
+    /* border: 2px solid cyan; */
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(8, 0, 0);
+    margin-top: -1.2em;
+    color: rgb(250, 77, 9);
+    font-size: 1rem;
+}
+
+.container form input[type="number"] {
+    margin-bottom: -1em;
+}
+
+
+/* Background Image */
+
+.container .bg_img img {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    margin-top: 18em;
+    margin-left: 4em;
+}
+
+.container .bg_img2 img {
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    margin-left: 73em;
+    margin-top: 20em;
+}
+
+
+/* Logout btn designing */

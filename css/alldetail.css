@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Designing Container */
+
+.container {
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+
+
+/* Designing Heading */
+
+.container h1 {
+    color: rgb(255, 30, 0);
+    text-align: center;
+    margin-top: .5em;
+    letter-spacing: 1px;
+    border-bottom: .5px solid black;
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+
+
+/* Designing Table Heading */
+
+.container table {
+    /* border: 2px solid cyan; */
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+
+.container th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: rgb(250, 37, 0) 0px 0px 7px;
+    padding: .5em 0;
+}
+
+
+/* Designing Table Contents */
+
+.container td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+
+/* Button Designing */
+
+#update_btn {
+    background-color: rgb(0, 255, 13);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#update_btn:hover {
+    background-color: rgb(17, 167, 25);
+    transition: .5s;
+}
+
+#del_btn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#del_btn:hover {
+    background-color: rgb(199, 3, 3);
+    transition: .5s;
+}
+
+
+/* Id Bold Designing */
+
+#td_data {
+    font-weight: bold;
+}
+
+
+/* Aadhaar Spacing */
+
+#ad_number {
+    letter-spacing: 2.5px;
+}
+
+
+/* Button Designing */
+
+.container a {
+    /* position: absolute; */
+    /* border: 2px solid seagreen; */
+    padding: .5em 1em;
+    margin: .5em .5em;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#insert {
+    position: absolute;
+    /* border: 2px solid seagreen; */
+    right: 2%;
+    top: 3.4%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: rgb(245, 229, 7);
+    padding: .5em .5em;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    box-shadow: rgb(245, 229, 7) 0px 0px 4px;
+}
